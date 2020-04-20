@@ -1,0 +1,27 @@
+{
+  "name": "devops-test-api",
+  "version": "1.0.0",
+  "description": "This api serves a json object for all requested routes.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rednotelabs/devops-test-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rednotelabs/devops-test-api/issues"
+  },
+  "homepage": "https://github.com/rednotelabs/devops-test-api#readme"
+}
