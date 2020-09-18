@@ -11,7 +11,7 @@ app.disable('x-powered-by')
 app.use(compression())
 app.use(bodyParser.json({ limit: '20mb' }))
 
-app.get('/', (req, res) => {
+app.get('/*', (req, res) => {
   res.status(200).json({ message: 'Hello World' })
 })
 
