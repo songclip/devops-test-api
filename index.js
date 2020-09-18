@@ -12,7 +12,7 @@ app.use(compression())
 app.use(bodyParser.json({ limit: '20mb' }))
 
 app.get('/', (req, res) => {
-  res.status(200).json({ message: 'Hello' })
+  res.status(200).json({ message: 'Hello World' })
 })
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`))
